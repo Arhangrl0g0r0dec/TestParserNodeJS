@@ -1,0 +1,27 @@
+{
+  "name": "testparsernodejs",
+  "version": "0.1.0",
+  "description": "Test task",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "prettier": "prettier --write src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arhangrl0g0r0dec/TestParserNodeJS.git"
+  },
+  "author": "Ilya Nikolaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arhangrl0g0r0dec/TestParserNodeJS/issues"
+  },
+  "homepage": "https://github.com/Arhangrl0g0r0dec/TestParserNodeJS#readme",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "puppeteer": "^23.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
